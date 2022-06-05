@@ -1,10 +1,8 @@
-# Aulão Problema N+1 queries com Spring Data JPA
-
-#### Assista o vídeo desta aula:
-
-[![Image](https://img.youtube.com/vi/sqbqoR-lMf8/mqdefault.jpg "Vídeo no Youtube")](https://youtu.be/sqbqoR-lMf8)
+# Problema N+1 queries com Spring Data JPA
 
 #### Testes SQL
+
+Isso acontece por causa do Lazy Loading
 
 ```
 SELECT * FROM tb_product LIMIT 0,5
